@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./rockpapershoe.js"></script>
     <title>rockpapershoe</title>
 </head>
+<script src="./rockpapershoe.js"></script>
 <body>
-    <div>Bob</div>
+    <div class="bod">
+        <div class="cont">
+            <button onclick="playRound()" id="rck">Rock</button>
+            <button onclick="playRound()" id="ppr">Paper</button>
+            <button onclick="playRound()" id="scsr">Scissors</button>
+            <div id="myscore"></div>
+            <div id="computerscore"></div>
+        </div>
+    </div>
     
 </body>
 </html>
